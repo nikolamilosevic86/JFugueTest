@@ -20,7 +20,7 @@ public class JFugueMain {
 		player.play(pattern5);
 	    try {
 	        MidiFileManager.savePatternToMidi((PatternProducer) pattern5, new File("FirstMidi.midi"));
-	        Pattern pattern3 = MidiFileManager.loadPatternFromMidi(new File("D:\\Work\\workspace3\\JFugueTest\\midi\\Celine_Dion_-_My_Heart_Will_Go_On_(Techno_Remix).mid"));
+	        Pattern pattern3 = MidiFileManager.loadPatternFromMidi(new File("midi\\Celine_Dion_-_My_Heart_Will_Go_On_(Techno_Remix).mid"));
 	        System.out.println(pattern3);
 	        player.play(pattern3);
 	    } catch (Exception ex) {
